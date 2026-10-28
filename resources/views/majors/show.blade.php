@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <a href="#"
+    <a href="{{ route('majors.index') }}"
         class="text-xs uppercase tracking-[0.15em] text-slate-400 hover:text-[#A16207]">
         &larr; Buku Jurusan
     </a>
@@ -81,7 +81,7 @@
 
         <div class="flex justify-end gap-4 border-t border-[#E5E3DB] px-8 py-5">
 
-            <a href="#"
+            <a href="{{ route('majors.index') }}"
                 class="px-4 py-2.5 text-sm font-medium text-slate-500 hover:text-[#16213A]">
                 Kembali
             </a>

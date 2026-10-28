@@ -64,7 +64,6 @@ class Authcontroller extends Controller
             'email_verified_at' => now()
         ]);
 
-        // handle if success
         return redirect()->route('login-view');
     }
 
